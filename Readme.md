@@ -10,8 +10,9 @@ Installation Instruction
 --------------------------
 
 1. Copy ToastPlugin.java to your src folder in package com.phonegap.munnadroid.plugin
-2. Edit res\xml\plugins.xml. Add <b><plugin name="ToastPlugin" value="com.phonegap.munnadroid.plugin.ToastPlugin"/>  </b>into <plugins> </plugins>
-3. Import Toast-Plugin.js into .html
+2. Edit res\xml\plugins.xml. 
+3. Add <b><plugin name="ToastPlugin" value="com.phonegap.munnadroid.plugin.ToastPlugin"/>  </b>into <plugins> </plugins>
+4. Import Toast-Plugin.js into .html
 
 How To Use ?
 ---------------
