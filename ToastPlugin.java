@@ -35,11 +35,11 @@ public class ToastPlugin extends Plugin {
 		
 		Runnable runnable = new Runnable() { 
 			public void run() {
-				Toast.makeText(((LegacyContext) currentCtx).getApplicationContext() ,Text, Duration).show();
+				Toast.makeText(cordova.getActivity().getApplicationContext() ,Text, Duration).show();
 			 }
 		}; 
 		
-		ctx.runOnUiThread(runnable);
+		cordova.getActivity().runOnUiThread(runnable);
 		
 		return new PluginResult(Status.OK);
 	}
