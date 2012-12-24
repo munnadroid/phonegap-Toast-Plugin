@@ -3,7 +3,9 @@ PhoneGap Toast Plugin
 
 + Author: munnadroid
 + License: The MIT License
-+ Test on PhoneGap 2.0.0 (cordova 2.0.0)
++ Test on PhoneGap 2.0.0 (Cordova 2.0.0)
++ Works in Cordova 2.1.0 
++ Should works in 2.2.0 also :D . 
 
 
 Installation Instruction
