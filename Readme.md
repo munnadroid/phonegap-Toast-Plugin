@@ -17,7 +17,7 @@ PhoneGap Toast Plugin
     <param name="android-package" value="org.apache.cordova.plugin.ToastPlugin" />
 </feature>
 ```
-at the end of the file, before `</widget>``
+at the end of the file, before `</widget>`
 
 1. Edit assets\www\cordova_plugins.js, add
 ``` javascript
@@ -37,7 +37,7 @@ as an element of the array `module.exports`
 Toast.longshow(Message [,SuccessCallback, FailureCallback]);
 ```
 
-2. Use Toast.shortshow
+1. Use Toast.shortshow
 
 ``` javascript
 Toast.shortshow(Message [,SuccessCallback, FailureCallback]);
