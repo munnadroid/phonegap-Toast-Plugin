@@ -50,3 +50,7 @@ Example
 	
 	Toast.shortshow("Hello, I am short Toast. ");
 	
+	
+PULL REQUEST are damn welcome !!!
+---------------------------------
+	
